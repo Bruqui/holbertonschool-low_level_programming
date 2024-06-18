@@ -5,9 +5,10 @@
  * Return: always 0 (success)
  */
 
-int main(void){
-	for (c = "a";c <= "z";c++)
+int main(void)
+{
+	for (char c = 'a'; c <= 'z'; c++)
 		putchar(c);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
