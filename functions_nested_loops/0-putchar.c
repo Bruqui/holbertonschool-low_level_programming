@@ -8,5 +8,5 @@
 int main(void)
 {
 	printf("_putchar\n");
-	return (o);
+	return (0);
 }
