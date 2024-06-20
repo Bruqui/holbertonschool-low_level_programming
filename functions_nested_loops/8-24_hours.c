@@ -2,8 +2,6 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- * @i: the int to check
- * @j: the second int to check
  * Return: always 0 (success)
  */
 
