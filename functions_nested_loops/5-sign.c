@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_sign - prints the sign of a number
+ * Return: always 0 (success)
+ */
+
 int print_sign(int n)
 {
 	if (n > 0)
