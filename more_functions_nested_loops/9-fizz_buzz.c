@@ -19,8 +19,9 @@ int main(void)
 			printf("Buzz");
 		else if (i > 9)
 		{
-			_putchar((i / 10) + '0');
-			_putchar((i % 10) + '0');
+			tens = i / 10;
+			units = i % 10;
+			printf("%d%d", tens, units);
 		}
 		else if (i < 9)
 			printf("%d", i);
