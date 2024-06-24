@@ -3,7 +3,7 @@
 void print_numbers(void)
 {
 	int i = 0;
-	for (; c < 10; i++)
+	for (; i < 10; i++)
 	{
 		_putchar(i + '0');
 	}
