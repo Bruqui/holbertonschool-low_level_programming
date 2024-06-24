@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _islower(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
