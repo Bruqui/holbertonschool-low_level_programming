@@ -8,6 +8,8 @@
 int main(void)
 {
 	int i;
+	int d;
+	int u;
 
 	for (i = 1; i <= 100; i++)
 	{
@@ -19,9 +21,9 @@ int main(void)
 			printf("Buzz");
 		else if (i > 9)
 		{
-			tens = i / 10;
-			units = i % 10;
-			printf("%d%d", tens, units);
+			d = i / 10;
+			u = i % 10;
+			printf("%d%d", d, u);
 		}
 		else if (i < 9)
 			printf("%d", i);
