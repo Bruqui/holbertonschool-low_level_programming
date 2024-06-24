@@ -2,5 +2,5 @@
 
 int mul(int a, int b)
 {
-	_putchar("%d\n", mul(a, b));
+	return (a * b);
 }
