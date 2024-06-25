@@ -4,6 +4,8 @@ void print_rev(char *s)
 {
 	int i;
 
+	char *s;
+
 	i = 0;
 
 	while (s[i] != '\0')
