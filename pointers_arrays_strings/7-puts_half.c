@@ -3,7 +3,7 @@
 void puts_half(char *str)
 {
 	int i;
-	int strlen(const char *str);
+	int _strlen(const char *str);
 
 	for (i = strlen(str) / 2; i < strlen(str); i++)
 		_putchar(str[i]);
