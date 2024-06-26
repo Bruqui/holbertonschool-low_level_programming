@@ -15,7 +15,7 @@ int _atoi(char *s)
 		else if (_isdigit(*s))
 		{
 			i = 1;
-			result = result * 10 + (*str - '0');
+			result = result * 10 + (*s - '0');
 		}
 		else (i)
 			break;
