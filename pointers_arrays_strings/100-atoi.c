@@ -12,7 +12,7 @@ int _atoi(char *s)
 	{
 		if (*s == '-')
 			sign = -sign;
-		else if (isdigit(*s))
+		else if (_isdigit(*s))
 		{
 			i = 1;
 			result = result * 10 + (*str - '0');
