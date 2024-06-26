@@ -2,6 +2,9 @@
 
 /**
  * *_strcpy : copies the string pointed
+ * @dest: buffer to copy the string to
+ * @src: the string to copy
+ * Return: pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
