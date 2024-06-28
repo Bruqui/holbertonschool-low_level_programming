@@ -10,13 +10,13 @@ char *leet(char *s)
 {
 	int i = 0;
 	char leet[256] = {0};
-	
+
 	leet['a'] = leet['A'] = '4';
 	leet['e'] = leet['E'] = '3';
 	leet['o'] = leet['O'] = '0';
 	leet['t'] = leet['T'] = '7';
 	leet['l'] = leet['L'] = '1';
-	
+
 	while (s[i] != '\0')
 	{
 		if (leet[(unsigned char)s[i]] != 0)
@@ -25,5 +25,5 @@ char *leet(char *s)
 		}
 		i++;
 	}
-	return s;
+	return (s);
 }
