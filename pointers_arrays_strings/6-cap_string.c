@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *cap_string - changes all lowercase letters of a string to uppercase
+ * cap_string - changes all lowercase letters of a string to uppercase
  * @str: The string to be capitalized
  * Return: A pointer to the changed string
  */
