@@ -6,20 +6,21 @@
  * Return: A pointer to the encoded string
  */
 
-char	*leet(char *s)
+char *leet(char *n)
 {
-	int i = 0;
-	int j;
-	char l[8] = {'O', 'L', '9', 'E', 'A', '9', '9', 'T'};
+	int k, r;
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	while (s[i] != '\0')
+	for (k = 0; n[k] != '\0'; k++)
 	{
-		for (j = 0; j <= 7; j++)
+		for (r = 0; r < 10; r++)
 		{
-			if (s[i] == l[j] || s[i] - 32 == l[j])
-				s[i] = j + '0';
+			if (n[k] == s1[r])
+			{
+				n[k] = s2[r];
+			}
 		}
-		i++;
 	}
-	return (s);
+	return (n);
 }
