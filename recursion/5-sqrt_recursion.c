@@ -4,6 +4,7 @@
  * _sqrt_help - recurses to find the natural
  * @n: number
  * @i: sqrt root
+ * Return: the resulting
  */
 
 int _sqrt_help(int n, int i)
