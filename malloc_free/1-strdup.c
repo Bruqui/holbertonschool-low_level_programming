@@ -18,13 +18,8 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	i = 0;
-
-	while (i < str[i])
-	{
-		length++;
-		i++;
-	}
+	for (i = 0; i < str[i]; i++)
+		len++;
 
 	duplicate = malloc((length + 1) * sizeof(char));
 
