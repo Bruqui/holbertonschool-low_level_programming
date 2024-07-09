@@ -3,6 +3,11 @@
 #include <stdlib.h>
 
 /**
+ * string_nconcat - concatenates two strings
+ * @s1: first string
+ * @s2: second string
+ * @n: number of bytes
+ * Return: result or NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -31,7 +36,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		result[j++] = s1[i];
 
 	for (i = 0; s2[i] && i < n; i++)
-                result[j++] = s2[i];
+		result[j++] = s2[i];
 
 	result[j] = '\0';
 
