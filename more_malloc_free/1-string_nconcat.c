@@ -30,7 +30,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	result = malloc(sizeof(char) * (n + j + 1));
 
 	if (result == NULL)
+	{
+		free(result);
 		return (NULL);
+	}
 
 	for (i = 0; i < j; i++)
 		result[i] = s1[i];
