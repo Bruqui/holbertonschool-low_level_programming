@@ -3,6 +3,8 @@
 #include <stdlib.h>
 
 /**
+ * free_dog - frees dogs
+ * @d: the struct of the dog
  */
 
 void free_dog(dog_t *d)
