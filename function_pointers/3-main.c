@@ -24,6 +24,12 @@ int main(int argc, char *argv[])
 		return (98);
 	}
 
+	if (operator == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
+
 	printf("%d\n", result);
 
 	return (0);
