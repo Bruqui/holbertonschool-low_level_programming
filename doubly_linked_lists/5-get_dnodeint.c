@@ -5,7 +5,7 @@
  * @head: a pointer to the head of the dlistint_t list.
  * @index: the index of the node, starting from 0.
  * Return: If the node does not exist - NULL.
- * 	   else a pointer to the node at the given index.
+ * else a pointer to the node at the given index.
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
